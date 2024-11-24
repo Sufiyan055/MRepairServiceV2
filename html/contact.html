@@ -93,7 +93,7 @@
     <section class="iconsContacts" id="iconsContacts">
       <div class="iconBoxMain">
         <div class="iconBox">
-          <a href="#">
+          <a>
             <i class="fa-solid fa-location-dot"></i>
           </a>
           <span class="indicate">ADDRESS</span>
@@ -163,7 +163,7 @@
             type="text"
             id="name"
             name="name"
-            placeholder="Your Name"
+            placeholder="Enter Your Name"
             required
           />
 
@@ -172,23 +172,22 @@
             type="number"
             id="phone"
             name="Number"
-            placeholder="Your Phone Number"
+            placeholder="Enter Phone Number"
             required
           />
 
-          <label for="email">Email*</label>
+          <label for="email">Email</label>
           <input
             type="email"
             id="email"
             name="email"
-            placeholder="Your Email"
-            required
+            placeholder="Enter Email"
           />
 
           <label for="servicesInput">Issue Regarding Which Gadget*</label>
 
           <select name="servicesInput" id="servicesInput" required>
-            <option value="Select Service">Select Service</option>
+            <option value="" disabled selected>Select Service</option>
             <option value="Mobile">Mobile</option>
             <option value="Laptop">Laptop</option>
             <option value="Camera">Camera</option>
@@ -203,10 +202,13 @@
           ></textarea>
           <div class="emailWhatsappBtn">
             <button type="submit">Send on Email</button><span>OR</span>
-            <a href="#" class="whatsapBtn" onclick="sendtoWhatsapp()"
+            <a class="whatsapBtn" onclick="sendtoWhatsapp()"
               >Send on Whatsapp</a
             >
           </div>
+          <p class="alertbelowBtn" id="alertbelowBtn">
+            Please fill the required "*" Input
+          </p>
         </form>
       </div>
     </section>
@@ -295,6 +297,14 @@
         let email = document.getElementById("email").value;
         let servicesInput = document.getElementById("servicesInput").value;
         let message = document.getElementById("message").value;
+        let alertbelowBtn = document.getElementById("alertbelowBtn");
+
+        if (!name || !phone || !servicesInput) {
+          alertbelowBtn.style.display = "block";
+          return;
+        } else {
+          alertbelowBtn.style.display = "none";
+        }
 
         let url =
           "https://wa.me/917304888579?text=" +

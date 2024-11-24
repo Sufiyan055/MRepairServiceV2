@@ -119,6 +119,11 @@
       border-radius: 5px;
       font-size: 1rem;
     }
+    #phone[type="number"]::-webkit-inner-spin-button,
+    #phone[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
     select {
       cursor: pointer;
     }
@@ -157,6 +162,14 @@
         }
       }
     }
+    .alertbelowBtn {
+      color: red;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-top: 10px;
+      text-align: center;
+      display: none;
+    }
   }
 }
 
@@ -175,6 +188,19 @@
           .whatsapBtn {
             width: 100%;
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .contact-section {
+    .leave-message {
+      .emailWhatsappBtn {
+        button,
+        .whatsapBtn {
+          font-size: 0.9em;
         }
       }
     }

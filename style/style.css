@@ -131,7 +131,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 907px) {
+@media screen and (max-width: 922px) {
   .mainSectionNavabar .pureNavbar {
     position: relative;
   }
