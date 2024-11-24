@@ -1,6 +1,7 @@
 let device = "Issue regarding which gadget: ";
 let issue = "Issue: ";
 
+let CustomerMessage = `-------Customer Message-------`;
 let smartPhone = "Smartphone";
 let laptop = "Laptop";
 let computer = "Computer";
@@ -13,6 +14,8 @@ function gotoWsForPhoneRepair1() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -29,6 +32,8 @@ function gotoWsForPhoneRepair2() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -45,6 +50,8 @@ function gotoWsForPhoneRepair3() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -61,6 +68,8 @@ function gotoWsForPhoneRepair4() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -76,6 +85,8 @@ function gotoWsForPhoneRepair5() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -92,6 +103,8 @@ function gotoWsForPhoneRepair6() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -107,6 +120,8 @@ function gotoWsForPhoneRepair7() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -123,6 +138,8 @@ function gotoWsForPhoneRepair8() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -141,6 +158,8 @@ function gotoWsForLaptopRepair1() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -157,6 +176,8 @@ function gotoWsForLaptopRepair2() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -173,6 +194,8 @@ function gotoWsForLaptopRepair3() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -189,6 +212,8 @@ function gotoWsForLaptopRepair4() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -204,6 +229,8 @@ function gotoWsForLaptopRepair5() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -220,6 +247,8 @@ function gotoWsForLaptopRepair6() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -236,6 +265,8 @@ function gotoWsForLaptopRepair7() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -252,6 +283,8 @@ function gotoWsForLaptopRepair8() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -270,6 +303,8 @@ function gotoWsForPCRepair1() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -286,6 +321,8 @@ function gotoWsForPCRepair2() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -302,6 +339,8 @@ function gotoWsForPCRepair3() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -318,6 +357,8 @@ function gotoWsForPCRepair4() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -334,6 +375,8 @@ function gotoWsForPCRepair5() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -350,6 +393,8 @@ function gotoWsForPCRepair6() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -366,6 +411,8 @@ function gotoWsForPCRepair7() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
@@ -382,6 +429,8 @@ function gotoWsForPCRepair8() {
 
   let url =
     "https://wa.me/917304888579?text=" +
+    CustomerMessage +
+    "%0a" +
     device +
     repairProduct +
     "%0a" +
