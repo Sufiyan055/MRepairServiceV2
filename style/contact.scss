@@ -1,3 +1,5 @@
+$primaryColor: orangered;
+
 @mixin flexcontent {
   display: flex;
   justify-content: center;
@@ -45,7 +47,7 @@
       flex-direction: column;
       gap: 5px;
       i {
-        background-color: orangered;
+        background-color: $primaryColor;
         color: #fff;
         font-size: 1.8em;
         padding: 16px 19px;
@@ -79,8 +81,8 @@
   h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: orangered;
-    border-bottom: 3px solid orangered;
+    color: $primaryColor;
+    border-bottom: 3px solid $primaryColor;
     display: inline-block;
     padding-bottom: 5px;
   }
@@ -107,7 +109,7 @@
     label {
       margin-bottom: 8px;
       font-weight: bold;
-      color: orangered;
+      color: $primaryColor;
     }
 
     input,
@@ -115,7 +117,7 @@
     select {
       margin-bottom: 15px;
       padding: 10px;
-      border: 1px solid orangered;
+      border: 1px solid $primaryColor;
       border-radius: 5px;
       font-size: 1rem;
     }
@@ -150,9 +152,9 @@
         width: 50%;
       }
       button {
-        background-color: orangered;
+        background-color: $primaryColor;
         &:hover {
-          background-color: rgba(255, 68, 0, 0.774);
+          background-color: $primaryColor;
         }
       }
       .whatsapBtn {

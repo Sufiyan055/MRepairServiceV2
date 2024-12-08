@@ -56,10 +56,7 @@
             <a href="../index.html"> <i class="fa-solid fa-house"></i> Home</a>
           </li>
           <li>
-            <a
-              href="repairservices.html"
-              style="background-color: orangered; color: #fff"
-            >
+            <a href="repairservices.html" class="onRepairService">
               <i class="fa-solid fa-screwdriver-wrench"></i> Repair Services</a
             >
           </li>
@@ -106,235 +103,299 @@
       <!--  -->
 
       <div class="subServicesSection">
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair1()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Screen Replacement </strong>
           <p class="descService">Cracked or broken screen repair.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair1()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair1()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Motherboard Repair </strong>
           <p class="descService">
             Diagnosing and repairing motherboard issues.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair1()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair1()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Screen Replacement </strong>
           <p class="descService">
             Repair or replacement of cracked, damaged, or flickering screens.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair1()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair2()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Processor (CPU) Repair or Replacement </strong>
           <p class="descService">Fixing or replacing damaged processors.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair2()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair2()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Keyboard Repair </strong>
           <p class="descService">
             Fixing or replacing unresponsive, damaged, or broken keys.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair2()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair2()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Battery Replacement </strong>
           <p class="descService">Fixing or replacing faulty batteries.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair2()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair3()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Charging Port Repair </strong>
           <p class="descService">
             Issues with USB or charging port connections.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair3()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair3()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Charging Port Repair </strong>
           <p class="descService">Fixing loose or damaged charging ports.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair3()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair3()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> RAM Upgrade </strong>
           <p class="descService">
             Resolving memory issues or upgrading for better performance.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair3()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair4()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Speaker and Microphone Repair </strong>
           <p class="descService">Fixing sound or voice issues.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair4()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair4()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Battery Replacement </strong>
           <p class="descService">
             Repair or replacement of faulty or degraded batteries.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair4()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair4()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Motherboard Repair </strong>
           <p class="descService">
             Diagnosing and repairing motherboard issues.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair4()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair5()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Camera Repair </strong>
           <p class="descService">Rear or front camera malfunction repair.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair5()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair5()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Hinge Repair</strong>
           <p class="descService">Repairing broken or loose laptop hinges.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair5()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair5()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Power Supply Unit (PSU) Repair</strong>
           <p class="descService">Fixing or replacing faulty power supplies.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair5()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair6()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Button Repair</strong>
           <p class="descService">
             Power button, volume button, or home button fixes.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair6()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair6()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Speaker Repair</strong>
           <p class="descService">
             Fixing distorted or non-functional speakers.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair6()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair6()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Hard Drive/SSD Repair and Replacement</strong>
           <p class="descService">
             Fixing storage failures or upgrading to an SSD.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair6()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair7()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Water Damage Repair</strong>
           <p class="descService">Fixing phones exposed to liquid.</p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair7()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair7()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Cooling Fan Repair </strong>
           <p class="descService">
             Repairing noisy or malfunctioning fans to prevent overheating.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair7()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair7()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Graphics Card Repair / Replacement </strong>
           <p class="descService">
             Fixing GPU issues or upgrading for better graphics.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair7()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="mobile">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPhoneRepair8()"
+          data-name="mobile"
+        >
           <i class="fa-solid fa-mobile"></i>
           <strong> Back Panel Replacement </strong>
           <p class="descService">
             Repair or replacement of the back cover or body.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPhoneRepair8()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="laptop">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForLaptopRepair8()"
+          data-name="laptop"
+        >
           <i class="fa-solid fa-laptop"></i>
           <strong> Trackpad Repair </strong>
           <p class="descService">
             Fixing unresponsive or malfunctioning touchpads.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForLaptopRepair8()" class="gotoWsA"
-            >Fix This Issue</a
-          >
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
-        <div class="sevicesBox" data-name="computer">
+        <div
+          class="sevicesBox"
+          onclick="gotoWsForPCRepair8()"
+          data-name="computer"
+        >
           <i class="fa-solid fa-computer"></i>
           <strong> Monitor/Display Repair </strong>
           <p class="descService">
             Fixing display problems or replacing broken screens.
           </p>
           <p class="price">&#8377; 1999</p>
-          <a onclick="gotoWsForPCRepair8()" class="gotoWsA">Fix This Issue</a>
+          <a class="gotoWsA">Fix This Issue</a>
         </div>
       </div>
     </section>

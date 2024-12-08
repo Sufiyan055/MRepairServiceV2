@@ -66,10 +66,7 @@
             >
           </li>
           <li>
-            <a
-              href="contact.html"
-              style="background-color: orangered; color: #fff"
-            >
+            <a href="contact.html" class="onContact">
               <i class="fa-solid fa-headset"></i> Contact Us</a
             >
           </li>
@@ -157,7 +154,7 @@
           Thank you for reaching out to us. Leave a meassage our team will get
           in touch with you shortly. Have a nice day!
         </p>
-        <form action="https://formspree.io/f/mqkvqkjn" method="POST">
+        <form action="https://formspree.io/f/mkgnaggj" method="POST">
           <label for="name">Name*</label>
           <input
             type="text"
@@ -184,9 +181,9 @@
             placeholder="Enter Email"
           />
 
-          <label for="servicesInput">Issue Regarding Which Gadget*</label>
+          <label for="Gadget">Issue Regarding Which Gadget*</label>
 
-          <select name="servicesInput" id="servicesInput" required>
+          <select name="Gadget" id="Gadget" required>
             <option value="" disabled selected>Select Gadget</option>
             <option value="Mobile">Mobile</option>
             <option value="Laptop">Laptop</option>
@@ -292,14 +289,15 @@
     <script src="../script/scriptTwo.js"></script>
     <script>
       function sendtoWhatsapp() {
+        let messageOnTop = "-------Customer Message-------";
         let name = document.getElementById("name").value;
         let phone = document.getElementById("phone").value;
         let email = document.getElementById("email").value;
-        let servicesInput = document.getElementById("servicesInput").value;
+        let Gadget = document.getElementById("Gadget").value;
         let message = document.getElementById("message").value;
         let alertbelowBtn = document.getElementById("alertbelowBtn");
 
-        if (!name || !phone || !servicesInput) {
+        if (!name || !phone || !Gadget) {
           alertbelowBtn.style.display = "block";
           return;
         } else {
@@ -308,6 +306,8 @@
 
         let url =
           "https://wa.me/917304888579?text=" +
+          messageOnTop +
+          "%0a" +
           "Name: " +
           name +
           "%0a" +
@@ -318,7 +318,7 @@
           email +
           "%0a" +
           "Device: " +
-          servicesInput +
+          Gadget +
           "%0a" +
           "message: " +
           message;

@@ -8,8 +8,27 @@
   scroll-behavior: smooth;
 }
 
-$primaryColor: orangered;
 $marginStrongHead: 60px 0px;
+
+$primaryColor: orangered;
+
+.onHome {
+  background-color: $primaryColor;
+  color: #fff;
+}
+
+.onContact {
+  background-color: $primaryColor;
+  color: #fff;
+}
+.onAbout {
+  background-color: $primaryColor;
+  color: #fff;
+}
+.onRepairService {
+  background-color: $primaryColor;
+  color: #fff;
+}
 
 @mixin linearGradient($img) {
   background: linear-gradient(45deg, #0000006f, #0000005f), ($img);
@@ -93,7 +112,7 @@ a {
     z-index: 111;
 
     .LogoNameImg {
-      background: linear-gradient(45deg, orangered, rgba(255, 68, 0, 0.397));
+      background: $primaryColor;
       padding: 5px 15px;
       border-radius: 5px;
       box-shadow: 0px 0px 4px 2px #00000042;
@@ -142,6 +161,7 @@ a {
           color: #fff;
           box-shadow: 0px 0px 6px 2px #00000027;
           padding: 12px 3px;
+          display: none;
           i {
             display: inline-block;
           }
@@ -184,6 +204,7 @@ a {
             width: 100%;
             padding: 13px 10%;
             border-radius: 4px;
+            display: inline;
           }
         }
         .call-us-li {
@@ -715,11 +736,12 @@ a {
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
       gap: 5px;
-      border: 1px solid orangered;
+      border: 1px solid $primaryColor;
       position: relative;
+      cursor: pointer;
       &:hover {
         transform: scale(1.02);
-        border: 2px solid orangered;
+        border: 2px solid $primaryColor;
       }
       strong {
         text-transform: uppercase;
@@ -729,7 +751,7 @@ a {
       }
       .gotoWsA {
         font-size: 0.9em;
-        background-color: orangered;
+        background-color: $primaryColor;
         text-align: center;
         padding: 5px 2px;
         border-radius: 4px;
@@ -742,7 +764,7 @@ a {
         width: 105px;
         cursor: pointer;
         &:hover {
-          background-color: rgb(249, 91, 33);
+          background-color: $primaryColor;
         }
       }
     }
@@ -767,17 +789,6 @@ a {
     }
   }
 }
-
-/* @media screen and (max-width: 1200px) {
-  .servicesSection {
-    .subMainServiceSection {
-      .subServicesSection {
-        .sevicesBox {
-        }
-      }
-    }
-  }
-} */
 
 /* repairStoreContent  - We are a Repair Store */
 
@@ -904,7 +915,7 @@ a {
       flex-direction: column;
       gap: 5px;
       .star {
-        color: #ed1b24;
+        color: $primaryColor;
       }
     }
   }
@@ -938,7 +949,7 @@ a {
 /* footerSection */
 
 .footerSection {
-  background: linear-gradient(45deg, orangered, rgba(255, 68, 0, 0.612));
+  background: $primaryColor;
   color: #fff;
   @include flexcontent();
   justify-content: space-evenly;
@@ -1053,7 +1064,7 @@ a {
   position: fixed;
   bottom: 63px;
   right: 10px;
-  background-color: orangered;
+  background-color: $primaryColor;
   color: #fff;
   padding: 5px 6px;
   box-shadow: 0px 0px 5px 1px #0000007f;
