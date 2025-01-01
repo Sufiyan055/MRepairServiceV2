@@ -11,6 +11,7 @@
 $marginStrongHead: 60px 0px;
 
 $primaryColor: orangered;
+$hoverPrimaryColor: rgb(227, 111, 68);
 
 .onHome {
   background-color: $primaryColor;
@@ -736,7 +737,7 @@ a {
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
       gap: 5px;
-      border: 1px solid $primaryColor;
+      border: 2px solid $hoverPrimaryColor;
       position: relative;
       cursor: pointer;
       &:hover {

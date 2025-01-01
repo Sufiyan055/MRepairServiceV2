@@ -670,7 +670,7 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   gap: 5px;
-  border: 1px solid orangered;
+  border: 2px solid rgb(227, 111, 68);
   position: relative;
   cursor: pointer;
 }
